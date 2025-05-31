@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fdb1156-7f55-455e-85b0-1f52e9f59fd1" name="Changes" comment="recent commit">
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2fdb1156-7f55-455e-85b0-1f52e9f59fd1" name="Changes" comment="partial completetion of order-service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/com/ecart/product_service/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/ecart/product_service/ProductServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/dto/Orderrequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/dto/Orderrequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +40,9 @@
     &quot;accountId&quot;: &quot;ca188d1e-d166-4cfa-8c5e-7464bef1a1f9&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -120,7 +115,7 @@
       <workItem from="1748685745045" duration="1578000" />
       <workItem from="1748687381935" duration="1853000" />
       <workItem from="1748689290031" duration="573000" />
-      <workItem from="1748689897326" duration="3060000" />
+      <workItem from="1748689897326" duration="4421000" />
     </task>
     <task id="LOCAL-00001" summary="recent commit">
       <option name="closed" value="true" />
@@ -130,16 +125,36 @@
       <option name="project" value="LOCAL" />
       <updated>1748688565775</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="partial completetion of order-service">
+      <option name="closed" value="true" />
+      <created>1748699050514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748699050514</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial stash" />
     <MESSAGE value="recent commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="recent commit" />
+    <MESSAGE value="partial completetion of order-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="partial completetion of order-service" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
