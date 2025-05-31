@@ -10,9 +10,10 @@ import com.ecart.order_service.dto.Orderrequest;
 import com.ecart.order_service.dto.orderLineItemsDto;
 import com.ecart.order_service.entity.OrderLineItems;
 import com.ecart.order_service.entity.Orders;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
-
+@Transactional
 public class OrderService {
 
 	public static void placeOrder(Orderrequest orderrequest) {
