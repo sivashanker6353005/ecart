@@ -15,16 +15,16 @@ import com.ecart.order_service.entity.Orders;
 
 public class OrderService {
 
-	public void placeOrder(Orderrequest orderrequest) {
+	public static void placeOrder(Orderrequest orderrequest) {
 		Orders order = new Orders();
 		order.setOrdernumber(UUID.randomUUID().toString());
 		List<OrderLineItems> orderLineItems=orderrequest.getOrderLineItemsdto().stream()
-		                                   .map(orderLineItemsDto->mapToDto(orderLineItemsDto))
+		                                   .map(OrderService::mapToDto)
 		                                   .toList();
 		order.setOrderLineItemList(orderLineItems);
 	}
 
-	private OrderLineItems mapToDto(orderLineItemsDto orderLineItemsDto) {
+	private static OrderLineItems mapToDto(orderLineItemsDto orderLineItemsDto) {
 		// TODO Auto-generated method stub
 		OrderLineItems orderLineItems = new OrderLineItems();
 		orderLineItems.setPrice(orderLineItemsDto.getPrice());

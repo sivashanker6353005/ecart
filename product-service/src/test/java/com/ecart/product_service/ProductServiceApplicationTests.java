@@ -21,7 +21,7 @@ import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.shaded.com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.MediaType;
-
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.ecart.product_service.dto.ProductRequest;
 
@@ -55,12 +55,6 @@ class ProductServiceApplicationTests {
 	             .content(new ObjectMapper().writeValueAsString(productRequest)))
 	             .andExpect(status().isCreated());
 	 }
-
-
-	private ContainerState status() {
-		// TODO Auto-generated method stub
-		return ;
-	}
 
 	private ProductRequest getProductRequest() {
 		// TODO Auto-generated method stub
