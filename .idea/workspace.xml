@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fdb1156-7f55-455e-85b0-1f52e9f59fd1" name="Changes" comment="completed inter-service communication with OrderService and InventoryService">
+    <list default="true" id="2fdb1156-7f55-455e-85b0-1f52e9f59fd1" name="Changes" comment="OrderController changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/inventory-service/src/main/java/com/ecart/inventory_service/Controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/inventory-service/src/main/java/com/ecart/inventory_service/Controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/config/WebClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecart/order_service/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +84,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\product-service\ecart" />
@@ -134,7 +139,7 @@
       <workItem from="1748687381935" duration="1853000" />
       <workItem from="1748689290031" duration="573000" />
       <workItem from="1748689897326" duration="7898000" />
-      <workItem from="1748838213625" duration="6779000" />
+      <workItem from="1748838213625" duration="7628000" />
     </task>
     <task id="LOCAL-00001" summary="recent commit">
       <option name="closed" value="true" />
@@ -176,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748843987636</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="OrderController changes">
+      <option name="closed" value="true" />
+      <created>1748845099114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748845099114</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +212,8 @@
     <MESSAGE value="partial completetion of order-service" />
     <MESSAGE value=" created inventory service" />
     <MESSAGE value="completed inter-service communication with OrderService and InventoryService" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed inter-service communication with OrderService and InventoryService" />
+    <MESSAGE value="OrderController changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="OrderController changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
